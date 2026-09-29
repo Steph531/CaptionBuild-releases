@@ -19,7 +19,8 @@ Toutes les versions et leurs notes : [Releases](https://github.com/Steph531/Capt
 ### macOS
 
 1. Ouvrez le `.dmg` et glissez **Caption Build** dans le dossier **Applications**.
-2. Au premier lancement, si macOS indique que l'application « est endommagée » ou « ne peut pas être ouverte car le développeur ne peut pas être vérifié », ouvrez le Terminal et lancez :
+2. Au premier lancement, macOS bloque l'application (« Apple n'a pas pu vérifier… »). Cliquez sur **OK**, puis allez dans **Réglages Système → Confidentialité et sécurité**, descendez jusqu'au message concernant Caption Build et cliquez sur **Ouvrir quand même**.
+3. Si macOS indique plutôt que l'application « est endommagée », ouvrez le Terminal et lancez :
    ```
    xattr -cr "/Applications/Caption Build.app"
    ```

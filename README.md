@@ -1,6 +1,6 @@
-# CaptionBuild — Téléchargements
+# Caption Build — Téléchargements
 
-Ce dépôt héberge uniquement les versions publiées de **CaptionBuild**, l'application qui transforme un enregistrement d'écran en short vertical avec sous-titres animés mot par mot. Il ne contient pas de code source.
+Ce dépôt héberge uniquement les versions publiées de **Caption Build**, l'application qui transforme un enregistrement d'écran en short vertical avec sous-titres animés mot par mot. Il ne contient pas de code source.
 
 ## Télécharger la dernière version
 
@@ -18,10 +18,10 @@ Toutes les versions et leurs notes : [Releases](https://github.com/Steph531/Capt
 
 ### macOS
 
-1. Ouvrez le `.dmg` et glissez **CaptionBuild** dans le dossier **Applications**.
+1. Ouvrez le `.dmg` et glissez **Caption Build** dans le dossier **Applications**.
 2. Au premier lancement, si macOS indique que l'application « est endommagée » ou « ne peut pas être ouverte car le développeur ne peut pas être vérifié », ouvrez le Terminal et lancez :
    ```
-   xattr -cr /Applications/captionbuild.app
+   xattr -cr "/Applications/Caption Build.app"
    ```
    puis relancez l'application.
 

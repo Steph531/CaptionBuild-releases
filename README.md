@@ -19,19 +19,16 @@ Toutes les versions et leurs notes : [Releases](https://github.com/Steph531/Capt
 ### macOS
 
 1. Ouvrez le `.dmg` et glissez **Caption Build** dans le dossier **Applications**.
-2. Au premier lancement, macOS bloque l'application (« Apple n'a pas pu vérifier… »). Cliquez sur **OK**, puis allez dans **Réglages Système → Confidentialité et sécurité**, descendez jusqu'au message concernant Caption Build et cliquez sur **Ouvrir quand même**.
-3. Si macOS indique plutôt que l'application « est endommagée », ouvrez le Terminal et lancez :
-   ```
-   xattr -cr "/Applications/Caption Build.app"
-   ```
-   puis relancez l'application.
+2. Au premier lancement, macOS demande si vous voulez ouvrir une application téléchargée sur Internet : cliquez sur **Ouvrir**.
+
+L'application est signée et notarisée par Apple.
 
 ### Windows
 
 1. Lancez `CaptionBuild-windows-setup.exe`.
 2. Si Windows affiche « Windows a protégé votre ordinateur », cliquez sur **Informations complémentaires** puis **Exécuter quand même**.
 
-Ces avertissements apparaissent parce que l'application n'est pas encore signée par Apple / Microsoft ; ils disparaîtront dans une prochaine version.
+Cet avertissement apparaît parce que l'application n'est pas encore signée auprès de Microsoft ; il disparaîtra dans une prochaine version.
 
 ## Mises à jour
 
